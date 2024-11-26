@@ -13,14 +13,13 @@ This project is a Selenium-based test automation framework designed to validate 
 - src/utils/data_provider.py: Data provider for test cases.
 src/utils/driver_factory.py: Factory class for initializing the WebDriver.
 - src/tests/test_tc001.py: Positive login test.
--   src/tests/test_tc002.py: Negative login tests.
+- src/tests/test_tc002.py: Negative login tests.
 - src/tests/test_tc003.py: Invoice Details validation.
 - src/conftest.py: Pytest configuration and WebDriver setup.
 - .env: Environment variables (e.g., ChromeDriver path).
 - .gitignore: Ignored files and directories for Git.
 - requirements.txt: Python dependencies.
 - README.md: Project documentation.
-- readme.md: Detailed documentation.
 
 ## Prerequisites
 
