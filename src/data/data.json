@@ -1,0 +1,47 @@
+{
+    "TC001": [
+      {
+        "Username": "demouser",
+        "Password": "abc123"
+      }
+    ],
+    "TC002": [
+      {
+        "Username": "Demouser",
+        "Password": "abc123"
+      },
+      {
+        "Username": "demouser_",
+        "Password": "xyz"
+      },
+      {
+        "Username": "demouser",
+        "Password": "nananana"
+      },
+      {
+        "Username": "demouser",
+        "Password": "abc123"
+      }
+    ],
+    "TC003": [
+      {
+        "Username": "demouser",
+        "Password": "abc123",
+        "HotelName": "Rendezvous Hotel",
+        "InvoiceDate": "14/01/2018",
+        "DueDate": "15/01/2018",
+        "InvoiceNumber": "110",
+        "BookingCode": "0875",
+        "CustomerDetails": "JOHNY SMITH\nR2, AVENUE DU MAROC\n123456",
+        "Room": "Superior Double",
+        "CheckIn": "14/01/2018",
+        "CheckOut": "15/01/2018",
+        "TotalStayCount": "1",
+        "TotalStayAmount": "$150",
+        "DepositNow": "USD $20.90",
+        "Tax&VAT": "USD $19.00",
+        "TotalAmount": "USD $209.00"
+      }
+    ]
+  }
+  
