@@ -5,41 +5,23 @@ This project is a Selenium-based test automation framework designed to validate 
 
 ## Project Structure
 
-project_root/
-│
-├── src/               
-│   ├── data/                           
-│   │   └── data.json                   # Data for test cases
-|   │   │
-│   ├── pages/                          
-│   │   ├── base_page.py                # Base page with reusable methods
-│   │   ├── invoice_details_page.py     # Page Object for the Invoice Details page
-│   │   ├── invoice_list_page.py        # Page Object for the Invoice List page
-│   │   └── login_page.py               # Page Object for the Login page
-│   │
-│   ├── utils/                          
-│   │   ├── data_provider.py            # Data provider for test cases
-│   │   └── driver_factory.py           # Factory class for initializing the WebDriver
-│   │
-│   ├── tests/                          
-│   │   ├── test_tc001.py               # Positive login test
-│   │   ├── test_tc002.py               # Negative login tests
-│   │   └── test_tc003.py               # Invoice Details validation
-│   │
-│   └── conftest.py                     # Pytest configuration and WebDriver setup
-│
-├── chromedriver/                       
-│   └── chromedriver                    # ChromeDriver executable
-│
-├── reports/                            
-│   └── report.html                     # Generated HTML test report
-│
-├── .env                                # Environment variables (e.g., ChromeDriver path)
-├── .gitignore                          # Ignored files and directories for Git
-├── requirements.txt                    # Python dependencies
-├── README.md                           # Project documentation
-└── docs/                              
-    └── readme.md                       # Detailed documentation (optional)
+- src/data/data.json: Data for test cases.
+- src/pages/base_page.py: Base page with reusable methods.
+- src/pages/invoice_details_page.py: Page Object for the Invoice Details page.
+- src/pages/invoice_list_page.py: Page Object for the Invoice List page.
+- src/pages/login_page.py: Page Object for the Login page.
+- src/utils/data_provider.py: Data provider for test cases.
+src/utils/driver_factory.py: Factory class for initializing the WebDriver.
+- src/tests/test_tc001.py: Positive login test.
+-   src/tests/test_tc002.py: Negative login tests.
+- src/tests/test_tc003.py: Invoice Details validation.
+- src/conftest.py: Pytest configuration and WebDriver setup.
+- .env: Environment variables (e.g., ChromeDriver path).
+- .gitignore: Ignored files and directories for Git.
+- requirements.txt: Python dependencies.
+- README.md: Project documentation.
+- readme.md: Detailed documentation.
+
 ## Prerequisites
 
 Before running the tests, ensure you have the following installed on your machine:
