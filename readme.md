@@ -7,13 +7,10 @@ This project is a Selenium-based test automation framework designed to validate 
 
 project_root/
 │
-├── src/                                
-│   ├── assets/                         
-│   │   └── style.css                   # Styling for the HTML report
-│   │
+├── src/               
 │   ├── data/                           
 │   │   └── data.json                   # Data for test cases
-│   │
+|   │   │
 │   ├── pages/                          
 │   │   ├── base_page.py                # Base page with reusable methods
 │   │   ├── invoice_details_page.py     # Page Object for the Invoice Details page
@@ -43,7 +40,6 @@ project_root/
 ├── README.md                           # Project documentation
 └── docs/                              
     └── readme.md                       # Detailed documentation (optional)
-
 ## Prerequisites
 
 Before running the tests, ensure you have the following installed on your machine:
