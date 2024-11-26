@@ -72,7 +72,8 @@ Example:
 pytest src/tests/test_tc001.py --tb=short --html=reports/report.html
 ```
 
-Test Report
+## Test Report
+
 After the tests run, an HTML report will be generated at reports/report.html
 
 ## Test Descriptions
